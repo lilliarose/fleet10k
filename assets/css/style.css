@@ -337,6 +337,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Bottom Section
 --------------------------------------------------------------*/
+
 #hero {
   margin-top: -5%;
   width: 100%;
@@ -572,6 +573,14 @@ section {
   font-weight: 700;
   font-size: 34px;
   color: #000000;
+}
+
+.about .bi-facebook {
+  font-size: 20px;
+}
+
+.about .bi-facebook:hover {
+  color: #dd3333;
 }
 
 .about h4 {
@@ -1044,6 +1053,19 @@ section {
   box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
 }
 
+.sponsors summary {
+  font-size: 15px !important;
+  color: #000000 !important;
+}
+
+.sponsors details {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+
 .sponsors .member .member-img {
   position: relative;
   height: 100px;
@@ -1103,13 +1125,6 @@ section {
   margin-bottom: 5px;
   font-size: 18px;
   color: #414c64;
-}
-
-.sponsors .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
 }
 
 .sponsors .member .member-info p {
