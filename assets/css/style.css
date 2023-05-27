@@ -787,13 +787,14 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #dd3333;
-  color: #fff;
+  border: 2px solid #dd333375;
+  color: rgba(255, 255, 255, 0.599);
+  cursor: default;
 }
 
-.cta .cta-btn:hover {
+/*.cta .cta-btn:hover {
   background: #dd3333;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1349,6 +1350,10 @@ section {
   text-align: center;
   box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
   padding: 20px 0 30px 0;
+}
+
+.contact .black a{
+  color: black !important;
 }
 
 .contact .info-box i {
