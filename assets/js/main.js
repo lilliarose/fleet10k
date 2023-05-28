@@ -95,6 +95,20 @@
     onscroll(document, headerScrolled)
   }
 
+  let selectLogoSpan = select('#logoSpan')
+  if (selectLogoSpan) {
+    const logoScrolled = () => {
+      if (window.scrollY > 100) {
+        selectLogoSpan.classList.add('logo-scrolled')
+      } else {
+        selectLogoSpan.classList.remove('logo-scrolled')
+      }
+    }
+    window.addEventListener('load', logoScrolled)
+    onscroll(document, logoScrolled)
+
+  }
+
   /**
    * Back to top button
    */

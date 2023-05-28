@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +45,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Fleet 5+10K</a></h1>
+      <h1 class="logo"><a href="index.html">FLEET<span class="logoSpan" id="logoSpan">5+10K</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -55,8 +57,8 @@
           <li><a class="nav-link scrollto" href="#cta">Entries</a></li>
           <li><a class="nav-link scrollto" href="#sponsors">Partners</a></li>
           <li><a class="nav-link scrollto" href="#faq">FAQs</a></li>
-          <li><a class="nav-link scrollto " href="#results">Results</a></li>
-          <li><a class="nav-link scrollto " href="#ac">Fleet and Crookham AC</a></li>
+          <li><a class="nav-link scrollto" href="#results">Results</a></li>
+          <li><a class="nav-link scrollto" href="#ac">Fleet and Crookham AC</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -67,15 +69,16 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Top Section ======= -->
-  <div id="heroLogo" class="d-flex align-items-center justify-content-center"><img src="assets/img/logo.png"></div>
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container position-relative row">
-      <div class="col right">
+  <div id="heroLogo" class="d-flex align-items-center justify-content-center"><img src="assets/img/logo-updated.png"></div>
+  <section id="hero">
+    <div class="container position-relative d-flex flex-row justify-content-center">
+      <div class="p-2">
         <button type="button" class="btn btn-get-started"><a class="scrollto" href="#about">About</a></button>
       </div>
-      <div class="col left">
-        <button type="button" class="btn btn-get-started">Enter Now!</button>
+      <div class="p-2">
+        <button type="button" class="btn btn-get-started"><a class="scrollto" href="#cta">Enter Now!</a></button>
       </div>
+    </div>
     </div>
   </section><!-- End Hero -->
 
@@ -157,14 +160,14 @@
         <div class="text-center">
           <h3>Fleet 5K and 10K | Sunday 22nd October 2023 9.30am</h3>
           <p>Entries open soon</p>
-          <a class="cta-btn" href="#">Enter Now!</a>
+          <a class="cta-btn">Enter Now!</a>
         </div>
 
       </div>
     </section><!-- End Cta Section -->
 
     <!-- ======= Sponsors Section ======= -->
-    <section id="sponsors" class="sponsors section-bg">
+    <section id="sponsors" class="sponsors">
       <div class="container">
 
         <div class="section-title">
@@ -243,7 +246,7 @@
     </section><!-- End sponsors Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -306,84 +309,26 @@
     </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Results Section ======= -->
-    <section id="results" class="faq section-bg">
+    <section id="results" class="results">
       <div class="container">
 
         <div class="section-title">
           <h2>Results</h2>
         </div>
-
-        <div class="faq-list">
-          <ul>
-            <div class="row">
-              <div class="col-sm-3">
-                <li data-aos="fade-up">
-                  <i class="bi bi-trophy icon-help"></i> <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq-list-1">Sunday October 30, 2022<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      <a href="">Fleet 10K</a>
-                      <a href="">Fleet 5K</a>
-                    </p>                  
-                  </div>
-                </li>  
-              </div>
-  
-              <div class="col-sm-3">
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <i class="bi bi-trophy icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Sunday October 17, 2021<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
-                  </div>
-                </li>
-              </div>
-  
-              <div class="col-sm-3">
-                <li data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-trophy icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Sunday October 20, 2019<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                    </p>
-                  </div>
-                </li>
-              </div>
-  
-              <div class="col-sm-3">
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-trophy icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                    </p>
-                  </div>
-                </li>
-              </div>
-  
-              <div class="col-sm-3">
-                <li data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-trophy icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                    </p>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-
-
-          </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center">Past Race Results</h3>
+          </div>
+          <div class="col-md-6">
+            <button class="text-center results btn btn-get-started"><h4>Photos</h4></button>
+          </div>
         </div>
 
-
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
 
     <!-- ======= Fleet and Crookham AC Section ======= -->
-    <section id="ac" class="sponsors">
+    <section id="ac" class="sponsors ac">
       <div class="container">
 
         <div class="section-title">
@@ -425,7 +370,7 @@
         </div>
 
       </div>
-    </section><!-- End sponsors Section -->
+    </section><!-- End AC Section -->
 
     <!-- ======= About History Section ======= -->
     <section id="histroy" class="about section-bg">
