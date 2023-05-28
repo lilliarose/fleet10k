@@ -344,8 +344,8 @@ h6 {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   #heroLogo img {
-    padding-top: 10%;
-    max-width: 500px;
+    padding-top: 15%;
+    max-width: 350px;
   }
   #hero .container{
     padding-top: 100px !important;
