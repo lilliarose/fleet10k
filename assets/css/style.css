@@ -361,7 +361,7 @@ h6 {
   margin-top: -5%;
   width: 100%;
   height: 70vh;
-  background: url("../img/hero-bg.png") top center;
+  background: url("../img/bg-photo-high-res.jpeg") top center;
   background-size: cover;
   position: relative;
 }
@@ -596,6 +596,18 @@ section {
   color: #000000;
 }
 
+.about h2 {
+  margin-bottom: 0;
+}
+
+.about .facebook {
+  padding-top: 10px;
+}
+
+.about .list {
+  
+}
+
 .about .bi-facebook {
   font-size: 20px;
 }
@@ -663,6 +675,7 @@ section {
 
 .eventInfo .icon-row {
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .eventInfo .icon-box .icon {
