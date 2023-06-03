@@ -777,6 +777,7 @@ section {
   background: #000000;
   background-size: cover;
   padding: 60px 0;
+  display: flex;
 }
 
 /* #cta {
