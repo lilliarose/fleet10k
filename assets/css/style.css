@@ -605,7 +605,8 @@ section {
 }
 
 .about .list {
-  
+  font-size: 15px;
+  color: #000000;
 }
 
 .about .bi-facebook {
